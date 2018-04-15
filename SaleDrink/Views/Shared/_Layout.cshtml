@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="~/Assets/js/jquery.min.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <style>
+
+        .badge-notify {
+            background: red;
+            position: relative;
+            top: -20px;
+            right: 10px;
+        }
+
+        .my-cart-icon-affix {
+            position: fixed;
+            z-index: 999;
+        }
+    </style>
+    <style>
+        /* Note: Try to remove the following lines to see the effect of CSS positioning */
+        .affix {
+            top: 0;
+            width: 100%;
+            z-index: 9999 !important;
+        }
+
+            .affix + .container-fluid {
+                padding-top: 70px;
+            }
+        /****Cart*****/
+        /*.badge-notify {
+            background: red;
+            position: relative;
+            top: -20px;
+            right: 10px;
+        }
+
+        .my-cart-icon-affix {
+            position: fixed;
+            z-index: 9999;
+        }
+
+        .top_nav_right {
+            position: relative;
+            float: right;
+            width: 21%;
+        }
+
+        .box_1 {
+            position: static;
+            text-align: center;
+            margin-top: -35px;
+        }
+
+        .my-cart-icon {
+            color: #fff;
+            font-size: 1.6em;
+            text-decoration: none;
+            position: static;
+            /*z-index: 9999;*/
+        /* }
+
+        .my-cart-badge {
+            margin-left: -35px;
+            font-size: 14px;
+            position: static;
+        }*/
+
+        /****End Cart*****/
+    </style>
+
+
+
+    @*<script src="~/Assets/Carts/js/validator.js"></script>*@
+    <script src="~/Assets/Client/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/Assets/Client/css/style.css" type="text/css" media="all" /> <!-- Index-Page-Styling -->
+
+    <script src="~/Assets/Carts/js/jquery.mycart.js"></script>
+    <script src="~/Assets/Carts/js/storeCartItems.js"></script>
+    <script src="~/Assets/Carts/js/jquery-2.2.3.min.js"></script>
+    <script>jQuery.noConflict(true);</script>
+</head>
+
+<body>
+
+
+    @Html.Action("Menu", "Home")
+
+
+
+
+
+
+    <div>
+        @RenderBody()
+        <div class="clearfix"></div>
+
+        @Html.Partial("Comments")
+        <div class="footer">
+            <div class="container">
+                <div class="footer-info">
+                    <div class="col-md-4 col-sm-4 footer-info-grid links">
+                        <h4>QUICK LINKS</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 footer-info-grid address">
+                        <h4>ADDRESS</h4>
+                        <address>
+                            <ul>
+                                <li>Parma Via Modena</li>
+                                <li>40019 Sant'Agata Bolognese</li>
+                                <li>BO, Italy</li>
+                                <li>Telephone : +1 (734) 123-4567</li>
+                                <li>Email : <a class="mail" href="mailto:mail@example.com">info(at)example.com</a></li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div class="col-md-4 col-sm-4 footer-info-grid email">
+                        <h4>NEWSLETTER</h4>
+                        <p>Subscribe to our newsletter and we will inform you about newest projects and promotions. </p>
+
+                        <form action="#" method="post" class="newsletter">
+                            <input class="email" type="email" placeholder="Your email..." required="">
+                            <input type="submit" class="submit" value="">
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="connect">
+                    <div class="connect-social">
+                        <h4>CONNECT</h4>
+                        <ul>
+                            <li><a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-vimeo"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-flickr"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#" class="social-button google"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+  
+</body>
+</html>

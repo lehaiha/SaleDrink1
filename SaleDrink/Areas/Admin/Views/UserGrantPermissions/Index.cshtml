@@ -1,0 +1,83 @@
+﻿@model IEnumerable<SaleDrink.Areas.Admin.Models.DataModel.UserGrantPermission>
+
+@{
+    ViewBag.Title = "Cấp quyền cho người dùng";
+}
+
+<section class="content-header">
+    <h1>
+        Quản trị viên
+        <small>@Session["fullName"]</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Admin/UserAdministrators"><i class="fa fa-dashboard"></i> Quản lý người dùng</a></li>
+        <li class="active">Cấp quyền người dùng</li>
+    </ol>
+</section>
+
+@*<h2 style="padding-top:15px;">
+    @*<a href="/Admin/UserAdministrators">Danh mục người dùng</a>
+    &gt;&gt;Cấp quyền cho người dùng<b style="color:blue;">@ViewBag.usergrant</b>
+</h2>*@
+
+<section class="content">
+    <!-- COLOR PALETTE -->
+    <div class="box box-default color-palette-box">
+        <div class="box-header with-border">
+            <h3 class="box-title">
+                <i class="fa fa-tag"></i> Cấp quyền cho người dùng<b style="color:blue;">@ViewBag.usergrant</b>
+            </h3>
+        </div>
+              
+    </div>
+
+    <div class="form-horizontal">
+        @*<div id="msg"></div>*@
+        <div class="col-xs-6 col-md-6">
+            <h4>Danh sách nghiệp vụ</h4>
+            @Html.DropDownList("businessesController", (IEnumerable<SelectListItem>)ViewBag.items, new { size = 20, onchange = "getPermissions('/UserGrantPermissions/getPermissions/'+this.value,'" + Session["usergrant"] + "');" })
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <h4>Danh sách quyền hạn</h4>
+            <div id="listaction"></div>
+        </div>
+        <script>
+    function getPermissions(action, usergrant) {
+        $.ajax({
+            method:"GET",
+            url:action,
+            data: {
+                usertemp:usergrant
+            },
+            success: function (data) {
+                $('#listaction').html('');
+                $.each(data, function (index,value) {
+                    if (value.IsGranted) {
+                        $('#listaction').append("<input type='CheckBox' checked onchange='updatePermission(" + "\"/UserGrantPermissions/updatePermission/\"+this.value,\"@Session["usergrant"]\")' value='" + value.PermissionId + "'> " + value.Description + "<br/>");
+                    } else {
+                        $('#listaction').append("<input type='CheckBox' onchange='updatePermission(" + "\"/UserGrantPermissions/updatePermission/\"+this.value,\"@Session["usergrant"]\")'value='" + value.PermissionId + "'> " + value.Description + "<br/>");
+                    }
+                });
+            }
+        })
+    }
+
+    function updatePermission(action,usergrant) {
+        $.ajax({
+            method:"GET",
+            url:action,
+            data: {
+                usertemp:usergrant
+            },
+            success: function (data) {
+                $('#msg').html(data);
+            }
+        })
+    }
+        </script>
+
+        <br /><br />
+    </div>
+</section>
+
+

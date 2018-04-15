@@ -1,0 +1,12 @@
+D:\Du an\SaleDrink\Model\bin\Release\Model.dll.config
+D:\Du an\SaleDrink\Model\bin\Release\Model.dll
+D:\Du an\SaleDrink\Model\bin\Release\Model.pdb
+D:\Du an\SaleDrink\Model\bin\Release\EntityFramework.dll
+D:\Du an\SaleDrink\Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Du an\SaleDrink\Model\bin\Release\EntityFramework.xml
+D:\Du an\SaleDrink\Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\Du an\SaleDrink\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\Du an\SaleDrink\Model\obj\Release\Model.csproj.CopyComplete
+D:\Du an\SaleDrink\Model\obj\Release\Model.dll
+D:\Du an\SaleDrink\Model\obj\Release\Model.pdb

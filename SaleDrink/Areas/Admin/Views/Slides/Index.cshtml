@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Model.EF.Slide>
+
+@{
+    ViewBag.Title = "Index";
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("/Admin/Home/Login");
+    }
+}
+
+<section class="content-header">
+    <h1>
+        Bản quản lý
+        <small>@Session["fullName"] - Member since - @Convert.ToDateTime(Session["createdDate"].ToString()).ToShortDateString()</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li class="active"><i class="fa fa-dashboard"></i> @(Convert.ToInt32(Session["isAdmin"].ToString()) == 1 ? "Quản trị viên" : "Thành viên")</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title"></h3>
+                    <a href="/Admin/Slides/Create" class="btn btn-success btn-lg" style="cursor: pointer">
+                        Thêm mới
+                        @*@Html.ActionLink("Thêm mới", "Create")*@
+                    </a>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <table id="example1" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Description)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Image)
+                                </th>
+                                @*<th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Url)
+                                </th>*@
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.DisplayOrder)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Status)
+                                </th>
+                                <th class="text-center">
+                                    @Html.DisplayNameFor(model => model.Content)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                                {
+                                    <tr>
+
+                                        <td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.Name)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Description)
+                                        </td>
+                                        <td class="text-center">
+                                            <img src="@Html.DisplayFor(modelItem => item.Image)" id="img_@item.ID" class="img-thumbnail" style="cursor:pointer" alt="Alternate Text" width="250" onclick="selectImage('/Slides/ChangeImage/@item.ID',this.id)" />
+                                            
+                                        </td>
+                                        @*<td>
+                                            @Html.DisplayFor(modelItem => item.Url)
+                                        </td>*@
+                                        <td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.DisplayOrder)
+                                        </td>
+                                        <td class="text-center btn-active" data-id="@item.ID" style="cursor:pointer">
+                                        @if (item.Status == true)
+                                        {
+                                            <span class="label label-success">Actived</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="label label-danger">Locked</span>
+                                        }
+                                        </td>
+                                        @*<td class="text-center">
+                                            @Html.DisplayFor(modelItem => item.Status)
+                                        </td>*@
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Content)
+                                        </td>
+
+                                        <td>
+                                            <a href="/Admin/Slides/Edit/@item.ID" data-toggle="tooltip" data-placement="top" title="Sửa"><i class="fa fa-edit"></i></a> &nbsp;
+                                            <a href="/Admin/Slides/Details/@item.ID" data-toggle="tooltip" data-placement="top" title="Chi tiết"><i class="fa fa-list-alt"></i></a> &nbsp;
+                                            <span class="Delete" data-id="@item.ID" style="cursor:pointer" data-toggle="tooltip" data-placement="top" title="Xóa"><i class="fa fa-times-circle"></i></span> &nbsp;
+
+                                        </td>
+                                    </tr>
+                                }
+                        </tbody>
+                        <tfoot>
+
+                        </tfoot>
+                    </table>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+<script src="~/Assets/Admin/js/Delete/Slide.js"></script>
+<script src="~/Assets/Admin/js/Slide.js"></script>
+<script src="~/Assets/Admin/js/selectImage.js"></script>
+<script src="~/Assets/Admin/js/SearchTable.js"></script>
+
+

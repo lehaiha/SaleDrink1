@@ -1,0 +1,138 @@
+﻿@model SaleDrink.Areas.Admin.Models.DataModel.UserAdministrator
+@using System.Web.UI.WebControls
+
+@{
+    ViewBag.Title = "Create";
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("/Admin/Home/Login");
+    }
+}
+
+<section class="content-header">
+    <h1>
+        Thêm mới thành viên
+        <small>@Session["fullName"]</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/Admin/UserAdministrators"><i class="fa fa-dashboard"></i> Quản lý người dùng</a></li>
+        <li class="active">Thêm mới thành viên</li>
+    </ol>
+</section>
+
+<section class="content">
+    <!-- COLOR PALETTE -->
+    <div class="box box-default color-palette-box">
+        <div class="box-header with-border">
+            <h3 class="box-title">
+                <i class="fa fa-tag"></i> Thêm mới
+            </h3>
+        </div>
+        <br />
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                
+                @*<p class="text-red">@ViewBag.error</p>*@
+                <div class="form-group">
+                    @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control textbox-control" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control textbox-control" } })
+                        @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                @*<script>
+                        CKEDITOR.replace("FullName")
+                    </script>*@
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control textbox-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Avatar, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-3">
+                        <input class="btn btn-default" id="Browse" value="Chọn ảnh" />
+                    </div>
+                    <div class="col-md-3">
+                        <div id="content"></div>
+                        @*<img src="" alt="Alternate Text" class="img-thumbnail" width="150" />*@
+                        @Html.EditorFor(model => model.Avatar, new { htmlAttributes = new { @class = "form-control textbox-control hidden" } })
+                        @Html.ValidationMessageFor(model => model.Avatar, "", new { @class = "text-danger" })
+                    </div>
+                    
+                    <script>
+                        $("#Browse").click(function () {
+                            var finder = new CKFinder();
+                            finder.selectActionFunction = function (fileUrl) {
+                                //Lấy file ảnh cuối cùng
+                                //fileUrl = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
+                                $("#Avatar").val(fileUrl);
+                                document.getElementById("content").innerHTML = '<img class="img-thumbnail" style="width:180px;height:200px" type="type/html" src="' + fileUrl + '" ></img>';
+                            };
+                            finder.popup();
+                        });
+                    </script>
+                </div>
+
+                @{
+                    var listItems = new List<ListItem> {
+                        new ListItem { Text = "Quản trị viên", Value = "1" },
+                        new ListItem { Text = "Thành viên", Value = "0" }
+                    };
+                }
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IsAdmin, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.DropDownListFor(model => model.IsAdmin, new SelectList(listItems, "Value", "Text"), "-- Select Status --", new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.IsAdmin, "", new { @class = "text-danger" })
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Allowed, new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @Html.CheckBoxFor(model => model.Allowed, new { @class = "checkbox" })
+                        @Html.ValidationMessageFor(model => model.Allowed, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-6">
+                        <input type="submit" value="Save" class="btn btn-success" />
+                        <p class="btn btn-default">@Html.ActionLink("Cancel", "Index")</p>
+                    </div>
+                </div>
+            </div>
+                    }
+        <!-- /.box-body -->
+        <br /><br />
+    </div>
+
+</section>
+

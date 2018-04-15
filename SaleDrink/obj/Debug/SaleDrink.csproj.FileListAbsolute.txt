@@ -1,0 +1,396 @@
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\ApplicationInsights.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\SaleDrink.dll.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\SaleDrink.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\SaleDrink.pdb
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csc.exe
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csc.exe.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csc.rsp
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csi.exe
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csi.exe.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\csi.rsp
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.AppContext.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Console.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.IO.Compression.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.IO.Pipes.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Claims.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Threading.Thread.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.ValueTuple.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\vbc.exe
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\vbc.exe.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\vbc.rsp
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Antlr3.Runtime.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Newtonsoft.Json.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Helpers.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Mvc.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Optimization.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Razor.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\WebGrease.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Helpers.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Mvc.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Optimization.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.Razor.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Antlr3.Runtime.pdb
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Newtonsoft.Json.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csprojResolveAssemblyReference.cache
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CoreCompileInputs.cache
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CopyComplete
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\obj\Debug\SaleDrink.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\obj\Debug\SaleDrink.pdb
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\EntityFramework.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Model.dll
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Model.pdb
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\Model.dll.config
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\EntityFramework.xml
+C:\Users\lehai\source\repos\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink\SaleDrink\bin\ApplicationInsights.config
+D:\Du an\SaleDrink\SaleDrink\bin\SaleDrink.dll.config
+D:\Du an\SaleDrink\SaleDrink\bin\SaleDrink.dll
+D:\Du an\SaleDrink\SaleDrink\bin\SaleDrink.pdb
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csc.exe
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csc.exe.config
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csc.rsp
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csi.exe
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csi.exe.config
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\csi.rsp
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.AppContext.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Collections.Immutable.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Console.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.Process.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.IO.Compression.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.IO.Pipes.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Reflection.Metadata.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.AccessControl.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Claims.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Threading.Thread.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.ValueTuple.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\vbc.exe
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\vbc.exe.config
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\vbc.rsp
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe
+D:\Du an\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe.config
+D:\Du an\SaleDrink\SaleDrink\bin\Antlr3.Runtime.dll
+D:\Du an\SaleDrink\SaleDrink\bin\EntityFramework.dll
+D:\Du an\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.Web.Infrastructure.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Model.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Newtonsoft.Json.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Helpers.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Mvc.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Optimization.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Razor.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.dll
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.dll
+D:\Du an\SaleDrink\SaleDrink\bin\WebGrease.dll
+D:\Du an\SaleDrink\SaleDrink\bin\Model.pdb
+D:\Du an\SaleDrink\SaleDrink\bin\Model.dll.config
+D:\Du an\SaleDrink\SaleDrink\bin\EntityFramework.xml
+D:\Du an\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Helpers.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Mvc.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Optimization.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.Razor.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.xml
+D:\Du an\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Antlr3.Runtime.pdb
+D:\Du an\SaleDrink\SaleDrink\bin\Newtonsoft.Json.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.xml
+D:\Du an\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.xml
+D:\Du an\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csprojResolveAssemblyReference.cache
+D:\Du an\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CoreCompileInputs.cache
+D:\Du an\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CopyComplete
+D:\Du an\SaleDrink\SaleDrink\obj\Debug\SaleDrink.dll
+D:\Du an\SaleDrink\SaleDrink\obj\Debug\SaleDrink.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csprojResolveAssemblyReference.cache
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CoreCompileInputs.cache
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\obj\Debug\SaleDrink.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\obj\Debug\SaleDrink.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\ApplicationInsights.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\SaleDrink.dll.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\SaleDrink.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\SaleDrink.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csc.exe
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csc.exe.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csc.rsp
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csi.exe
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csi.exe.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\csi.rsp
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Win32.Primitives.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.AppContext.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Collections.Immutable.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Console.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.Process.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.IO.Compression.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.IO.Pipes.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Reflection.Metadata.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.AccessControl.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Claims.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Security.Principal.Windows.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Threading.Thread.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.ValueTuple.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XmlDocument.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\vbc.exe
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\vbc.exe.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\vbc.rsp
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Antlr3.Runtime.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\CKFinder.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\EntityFramework.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.Agent.Intercept.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.Web.Infrastructure.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Model.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Newtonsoft.Json.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Helpers.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Mvc.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Optimization.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Razor.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\WebGrease.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Model.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Model.dll.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\CKFinder.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\EntityFramework.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Helpers.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Mvc.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Optimization.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.Razor.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Antlr3.Runtime.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Newtonsoft.Json.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CopyComplete
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\ApplicationInsights.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\SaleDrink.dll.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\SaleDrink.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\SaleDrink.pdb
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csc.exe
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csc.exe.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csc.rsp
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csi.exe
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csi.exe.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\csi.rsp
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.AppContext.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Collections.Immutable.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Console.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.Process.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.IO.Compression.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.IO.Pipes.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Reflection.Metadata.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.AccessControl.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Claims.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Threading.Thread.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.ValueTuple.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\vbc.exe
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\vbc.exe.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\vbc.rsp
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\roslyn\VBCSCompiler.exe.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Antlr3.Runtime.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\CKFinder.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\EntityFramework.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.Web.Infrastructure.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Model.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Newtonsoft.Json.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Helpers.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Mvc.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Optimization.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Razor.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\WebGrease.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Model.pdb
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Model.dll.config
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\CKFinder.pdb
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\EntityFramework.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Helpers.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Mvc.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Optimization.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.Razor.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.Deployment.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\System.Web.WebPages.Razor.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Antlr3.Runtime.pdb
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Newtonsoft.Json.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.ApplicationInsights.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.DependencyCollector.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.WindowsServer.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\bin\Microsoft.AI.Web.xml
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csprojResolveAssemblyReference.cache
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CoreCompileInputs.cache
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\obj\Debug\SaleDrink.csproj.CopyComplete
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\obj\Debug\SaleDrink.dll
+D:\Du an\SaleDrink1\SaleDrink\SaleDrink\obj\Debug\SaleDrink.pdb

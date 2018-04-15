@@ -1,0 +1,27 @@
+﻿@media(max-width:1376px) {
+    .fix {
+        margin-top: -3%;
+    }
+}
+
+@media(max-width:840px) {
+    .fix {
+        margin-top: -7%;
+    }
+}
+
+@media(max-width:980px) {
+    .fix {
+        margin-top: -6%;
+    }
+}
+@media (max-width : 480px) {
+    .fix {
+        margin-top: -9%;
+    }
+}
+@media (max-width : 360px) {
+    .fix {
+        margin-top: -11%;
+    }
+}

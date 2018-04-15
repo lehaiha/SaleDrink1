@@ -1,0 +1,48 @@
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\Model.dll.config
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\Model.dll
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\Model.pdb
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\EntityFramework.dll
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\EntityFramework.xml
+C:\Users\lehai\source\repos\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lehai\source\repos\SaleDrink\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\lehai\source\repos\SaleDrink\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\lehai\source\repos\SaleDrink\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\lehai\source\repos\SaleDrink\Model\obj\Debug\Model.dll
+C:\Users\lehai\source\repos\SaleDrink\Model\obj\Debug\Model.pdb
+D:\Du an\SaleDrink\Model\bin\Debug\Model.dll.config
+D:\Du an\SaleDrink\Model\bin\Debug\Model.dll
+D:\Du an\SaleDrink\Model\bin\Debug\Model.pdb
+D:\Du an\SaleDrink\Model\bin\Debug\EntityFramework.dll
+D:\Du an\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Du an\SaleDrink\Model\bin\Debug\EntityFramework.xml
+D:\Du an\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Du an\SaleDrink\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Du an\SaleDrink\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Du an\SaleDrink\Model\obj\Debug\Model.dll
+D:\Du an\SaleDrink\Model\obj\Debug\Model.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\obj\Debug\Model.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\obj\Debug\Model.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\Model.dll.config
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\Model.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\Model.pdb
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\EntityFramework.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.dll
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\EntityFramework.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.xml
+I:\1-Projects_Making\SaleDrink\SaleDrink\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\Model.dll.config
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\Model.dll
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\Model.pdb
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\EntityFramework.dll
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\EntityFramework.xml
+D:\Du an\SaleDrink1\SaleDrink\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Du an\SaleDrink1\SaleDrink\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Du an\SaleDrink1\SaleDrink\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Du an\SaleDrink1\SaleDrink\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Du an\SaleDrink1\SaleDrink\Model\obj\Debug\Model.dll
+D:\Du an\SaleDrink1\SaleDrink\Model\obj\Debug\Model.pdb

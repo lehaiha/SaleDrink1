@@ -1,0 +1,216 @@
+﻿@model IEnumerable<Model.ProjectProduct>
+
+@{
+    ViewBag.Title = "Index";
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("/Admin/Home/Login");
+    }
+}
+
+<section class="content-header">
+    <h1>
+        Bản quản lý dự án
+        <small>@Session["fullName"] - Member since - @Convert.ToDateTime(Session["createdDate"].ToString()).ToShortDateString()</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li class="active"><i class="fa fa-dashboard"></i> @(Convert.ToInt32(Session["isAdmin"].ToString()) == 1 ? "Quản trị viên" : "Thành viên")</li>
+    </ol>
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title"></h3>
+                    <a href="/Admin/ProjectProducts/Create" class="btn btn-success btn-lg" style="cursor: pointer">
+                        Thêm mới
+                        @*@Html.ActionLink("Thêm mới", "Create")*@
+                    </a>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <table id="example1" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Alias)
+                                </th>
+                                <th class="hidden">
+                                    @Html.DisplayNameFor(model => model.CategoryID)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ThumbnailImage)
+                                </th>
+                                @*<th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OriginalPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PromotionPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IncludedVAT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Warranty)
+        </th>*@
+                                @*<th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>*@
+                                @*<th>
+            @Html.DisplayNameFor(model => model.HomeFlag)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HotFlag)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.ViewCount)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Tags)
+        </th>*@
+                                @*<th>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdatedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpdatedBy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaKeyword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MetaDescription)
+        </th>*@
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Status)
+                                </th>
+                               
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+    {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Alias)
+                                </td>
+                                <td class="hidden">
+                                    @Html.DisplayFor(modelItem => item.CategoryID)
+                                </td>
+                                <td>
+                                    <img src="@Html.DisplayFor(modelItem => item.ThumbnailImage)" id="img_@item.ID" class="img-thumbnail" style="cursor:pointer" alt="Alternate Text" width="100" onclick="selectImage('/ProjectProducts/ChangeImage/@item.ID',this.id)" />
+                                </td>
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.Price)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.OriginalPrice)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PromotionPrice)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.IncludedVAT)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Warranty)
+                                </td>*@
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.Description)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Content)
+                                </td>*@
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.HomeFlag)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.HotFlag)
+                                </td>*@
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ViewCount)
+                                </td>
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.Tags)
+                                </td>*@
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UpdatedDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.UpdatedBy)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MetaKeyword)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MetaDescription)
+                                </td>*@
+                                @*<td>
+                                    @Html.DisplayFor(modelItem => item.Status)
+                                </td>*@
+                                <td class="text-center btn-active" data-id="@item.ID" style="cursor:pointer">
+                                    @if (item.Status == true)
+        {
+                            <span class="label label-success">Actived</span>
+}
+else
+{
+                            <span class="label label-danger">Locked</span>
+}
+                                </td>
+                                <td>
+                                    <a href="/Admin/ProjectProducts/Edit/@item.ID" data-toggle="tooltip" data-placement="top" title="Sửa"><i class="fa fa-edit"></i></a> &nbsp;
+                                    <a href="/Admin/ProjectProducts/Details/@item.ID" data-toggle="tooltip" data-placement="top" title="Chi tiết"><i class="fa fa-list-alt"></i></a> &nbsp;
+                                    <span class="Delete" data-id="@item.ID" style="cursor:pointer" data-toggle="tooltip" data-placement="top" title="Xóa"><i class="fa fa-times-circle"></i></span> &nbsp;
+                                </td>
+                            </tr>
+}
+                        </tbody>
+                        <tfoot>
+
+                        </tfoot>
+                    </table>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+
+    <!-- /.row -->
+</section>
+<script src="~/Assets/Admin/js/Delete/ProjectProduct.js"></script>
+<script src="~/Assets/Admin/js/ChangesStatus/ProjectProducts.js"></script>
+<script src="~/Assets/Admin/js/selectImage.js"></script>
+<script src="~/Assets/Admin/js/SearchTable.js"></script>
+
+
+@*<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>*@

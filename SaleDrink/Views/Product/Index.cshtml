@@ -1,0 +1,329 @@
+﻿@{
+    /**/
+
+    var Products = (List<Model.EF.Product>)ViewBag.Product;
+
+
+}
+
+<div class="banner">
+
+    <div class="container">
+        <br />
+        <h3 style="font-size:50px;color:#ff6a00">NE'MER DRINKS</h3>
+        <div class="w3-agileitsline"></div>
+    </div>
+    @{int t = Products.Count;
+        t = t / 4;
+        if (t == 0)
+        {
+            t = 0;
+        }
+        else
+        {
+            t = t + 1;
+        }
+        List<Model.EF.Product> pro = new List<Model.EF.Product>();
+
+        pro = Products.ToList();
+        int m = 0;
+        int vitri = 0;
+
+        for (int i = 0; i < t; i++)
+        {
+            <div class="container1">
+
+                @{for (int j = vitri; j < pro.Count; j++)
+                    {<div class="cart-grid" id="cart-4">
+                            <div class="img">
+
+                                <img src="@pro[j].ThumbnailImage.ToString()" />
+                            </div>
+                            <ul class="info text-center">
+                                <li style="color:white">@pro[j].Name</li>
+
+                                <li style="color:white;padding-top:10px">Giá bán : @String.Format("{0:0,0}", pro[j].Price)</li>
+                                @*<li class="right-text">$15.00</li>*@
+                            </ul>
+                            <button class="btn w3l-cart my-cart-btn" data-id="@pro[j].ID" data-name="@pro[j].Name" data-summary="" data-price="@pro[j].Price" data-quantity="1" data-image="@pro[j].ThumbnailImage">Mua sản phẩm</button>
+
+
+                        </div>
+
+
+                        if (m == 3)
+                        {
+                            vitri = j + 1;
+                            m = 0;
+                            break;
+                        }
+                        m++;
+
+                    }
+                    <div class="clear"></div>
+
+                }
+            </div>
+                    }
+    }
+
+
+
+
+
+
+    <!-- //cart's-Product-Display -->
+    @*<div class="wthreecartaits wthreecartaits2 cart cart box_1">
+            <form action="#" method="post" class="last">
+                <input type="hidden" name="cmd" value="_cart" />
+                <input type="hidden" name="display" value="1" />
+                <button class="w3view-cart" type="submit" name="submit" value="">
+                    view cart
+                    <span class="fa fa-cart-arrow-down" aria-hidden="true"></span>
+                </button>
+            </form>
+        </div>
+        <div class="copyright text-center">
+            <p>
+                © 2017 Shopping Cart. All rights reserved | Design by
+                <a href="http://w3layouts.com">W3layouts</a>
+            </p>
+        </div>*@
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3>Contact</h3>
+            <div class="w3-agileitsline"></div>
+            <form action="#" method="post" class="contact_form">
+                <div class="message">
+                    <div class="col-md-6 col-sm-6 grid_6 c1">
+                        <input type="text" name="Name" class="text" placeholder="Name" required="">
+                        <input type="text" name="Email" class="text" placeholder="Email" required="">
+                        <input type="text" name="Phone" class="text" placeholder="Phone" required="">
+                    </div>
+                    <div class="col-md-6 col-sm-6 grid_6 c1">
+                        <textarea name="Message" placeholder="Message" required=""></textarea>
+                    </div>
+                    <div class="clearfix"></div>
+                    <input type="submit" name="send" class="more_btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+</div>
+<div id="myModal" class="modal fade" role="dialog" style="z-index: 99999999">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:#0094ff">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color:white"></h4>
+            </div>
+            <div class="modal-body">
+
+                <form data-toggle="validator" role="form">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="inputName" class="control-label">Tên khách hàng</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-user" style="color:cornflowerblue;"></span></div>
+                                <input type="text" class="form-control" id="txtCustomer" placeholder="Tên khách hàng" data-error="Tên khách hàng không bỏ trống" required>
+
+                            </div>
+
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName" class="control-label">Địa chỉ</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-book" style="color:cornflowerblue;"></span></div>
+                                <input type="text" class="form-control" id="txtAddRess"  onkeyup="changetext()" placeholder="Địa chỉ" data-error="Địa chỉ không bỏ trống" required>
+
+
+                            </div>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label for="inputTwitter" class="control-label">Số điện thoại</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-phone" style="color:cornflowerblue;"></span></div>
+                                <input type="text" pattern="^[_0-9]{1,}$" class="form-control" id="txtPhoneNumbers" placeholder="Số điện thoại" data-error="Điện thoại phải là chữ số" required>
+
+                            </div>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="control-label">Email</label>
+
+
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-envelope" style="color:cornflowerblue;"></span></div>
+                                <input type="email" class="form-control" id="txtEmail" placeholder="Email" data-error="Địa chỉ email không hợp lệ" required>
+
+                            </div>
+
+
+
+
+
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6"></div>
+                    <div id="dvDistance"></div>
+                    <div id="dvDistance1"></div>
+                    <div id="dvDistance2"></div>
+                    <div id="dvMap" style="min-height:300px">
+                    </div>
+
+
+                </form>
+                <div class="row" style="margin-left:60%">
+                    <div class="form-group col-sm-6">
+                        <button type="submit" onclick="sendCustomerInformation();" data-dismiss="modal" class="btn btn-primary">Thanh toán</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Hủy bỏ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAixSrDX8oJvGo3FyTQLr3hypZyXA-coiQ" type="text/javascript"></script>
+
+<script>
+        var changetext = function () {
+            directionsDisplay.setMap(map);
+
+            // source = document.getElementById("travelfrom").value;
+            source = "44 nguyễn thông, quận 3,tphcm";
+            destination = document.getElementById("txtAddRess").value;
+
+            var request = {
+                origin: source,
+                destination: destination,
+                travelMode: google.maps.TravelMode.DRIVING
+            };
+
+            directionsService.route(request, function (response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    directionsDisplay.setDirections(response);
+                }
+            });
+
+            //*********DISTANCE AND DURATION**********************//
+            var service = new google.maps.DistanceMatrixService();
+            service.getDistanceMatrix({
+                origins: [source],
+                destinations: [destination],
+                travelMode: google.maps.TravelMode.DRIVING,
+                unitSystem: google.maps.UnitSystem.METRIC,
+                avoidHighways: false,
+                avoidTolls: false
+            }, function (response, status) {
+
+                if (status == google.maps.DistanceMatrixStatus.OK && response.rows[0].elements[0].status != "ZERO_RESULTS") {
+                    var distance = response.rows[0].elements[0].distance.text;
+               //     try {
+                          @{
+             //   Session["distance"] = @:distance + "";
+             }
+                      //  Session["distance"] ;
+                           @*@foreach(var distance in ShipRates)
+            {
+                if (Session["distance"] != null) {
+
+                    if (double.Parse(Session["distance"].ToString()) == double.Parse(distance.FromDes + "") && double.Parse(Session["distance"].ToString()) <= double.Parse(distance.ToDes + "")) {
+                        Session["distance"] = distance.ShipRate;
+                    }
+
+                }
+            }*@
+
+                    
+
+
+                    //} catch (err) {
+                       
+                    //}
+         
+
+                    var duration = response.rows[0].elements[0].duration.value;
+                    var dvDistance = document.getElementById("dvDistance");
+                    var shipmoney = response.rows[0].elements[0].distance.value;
+                
+                    //var money = shipmoney.split(' ');
+                    shipmoney = parseInt(shipmoney*4/1000+0.5)*1000;
+                   
+                    duration = parseFloat(duration / 60).toFixed(2);
+                    var total = parseFloat(sessionStorage["Products"]) + shipmoney;
+                    dvDistance1.innerHTML = "Khoảng cách: " + distance + "<br />";
+
+                    dvDistance.innerHTML = "Tiền ship: " + shipmoney.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + "<br />";
+                    dvDistance2.innerHTML = "Tổng(bao gồm ship): " + Math.round(total,0).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + "<br />";
+                  
+                    var ShipRate = [];
+                    ShipRate.push({
+                        distance: distance,
+                        shipmoney: shipmoney,
+                        totalmoney: total
+
+                    });
+                    var shipRate = ShipRate;
+                    var t = JSON.stringify(shipRate);
+                    $.ajax({
+                        url: '/CartItems/getShip',  //this is the umbraco surface path to controller action. problem her!!!!
+
+                        type: "POST",
+                        data: JSON.stringify({ shiprate: t }),
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        error: function (jqXHR, textStatus, errorThrown) {
+
+                        },
+                        success: function (data, textStatus, jqXHR) {
+                            // alert("Bạn đã hoàn tất đơn hàng");
+                        }
+
+                    })
+                //    dvDistance.innerHTML = "Time:" + duration + " min";
+                 //   dvDistance.innerHTML = "ShipRate" + Session["distance"];
+
+
+                  
+
+
+
+                } else {
+                    //alert("");
+                }
+            });
+        };
+
+        var source, destination;
+        var directionsDisplay;
+        var directionsService = new google.maps.DirectionsService();
+        //     10.811123, 106.684974
+        // initialise the location of the map on Chichester in England (ref lat and lng)
+        var map = new google.maps.Map(document.getElementById('dvMap'), {
+            center: { lat: 10.811123, lng: 106.684974 },
+            zoom: 13,
+            mapTypeId: 'roadmap'
+        });
+
+        google.maps.event.addDomListener(window, 'load', function () {
+
+           // new google.maps.places.SearchBox(document.getElementById('travelfrom'));
+            new google.maps.places.SearchBox("44 nguyễn thông, quận 3,tphcm");
+            new google.maps.places.SearchBox(document.getElementById('txtAddress'));
+            directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
+        });
+</script>

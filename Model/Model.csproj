@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7F81726-AFB9-4560-83AE-EAB364411332}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\ChangesDAO.cs" />
+    <Compile Include="DAO\MenuDao.cs" />
+    <Compile Include="DAO\PostNewsDAO.cs" />
+    <Compile Include="DAO\ProductCategoriesDAO.cs" />
+    <Compile Include="DAO\ProductDao.cs" />
+    <Compile Include="DAO\ProductDetailsDao.cs" />
+    <Compile Include="DAO\ProjectDao.cs" />
+    <Compile Include="DAO\ProjectMenuDao.cs" />
+    <Compile Include="DAO\ProjectProductDao.cs" />
+    <Compile Include="DAO\ShipRateDao.cs" />
+    <Compile Include="DAO\SlideDAO.cs" />
+    <Compile Include="DAO\SlideDaoChanges.cs" />
+    <Compile Include="EF\Announcement.cs" />
+    <Compile Include="EF\AnnouncementUser.cs" />
+    <Compile Include="EF\AppRole.cs" />
+    <Compile Include="EF\AppUser.cs" />
+    <Compile Include="EF\AppUserClaim.cs" />
+    <Compile Include="EF\AppUserLogin.cs" />
+    <Compile Include="EF\AppUserRole.cs" />
+    <Compile Include="EF\Color.cs" />
+    <Compile Include="EF\ContactDetail.cs" />
+    <Compile Include="EF\Drinkdbcontext.cs" />
+    <Compile Include="EF\Error.cs" />
+    <Compile Include="EF\Feedback.cs" />
+    <Compile Include="EF\Footer.cs" />
+    <Compile Include="EF\Function.cs" />
+    <Compile Include="EF\Menu.cs" />
+    <Compile Include="EF\MenuType.cs" />
+    <Compile Include="EF\Order.cs" />
+    <Compile Include="EF\OrderDetail.cs" />
+    <Compile Include="EF\Page.cs" />
+    <Compile Include="EF\PartnerLogo.cs" />
+    <Compile Include="EF\Permission.cs" />
+    <Compile Include="EF\Post.cs" />
+    <Compile Include="EF\PostCategory.cs" />
+    <Compile Include="EF\Product.cs" />
+    <Compile Include="EF\ProductCategory.cs" />
+    <Compile Include="EF\ProductImage.cs" />
+    <Compile Include="EF\ProductQuantity.cs" />
+    <Compile Include="EF\ProductsShip.cs" />
+    <Compile Include="EF\Project.cs" />
+    <Compile Include="EF\ProjectProduct.cs" />
+    <Compile Include="EF\Size.cs" />
+    <Compile Include="EF\Slide.cs" />
+    <Compile Include="EF\SupportOnline.cs" />
+    <Compile Include="EF\SystemConfig.cs" />
+    <Compile Include="EF\Tag.cs" />
+    <Compile Include="EF\UserAdministrator.cs" />
+    <Compile Include="EF\UserBusiness.cs" />
+    <Compile Include="EF\UserCategory.cs" />
+    <Compile Include="EF\UserGrantPermission.cs" />
+    <Compile Include="EF\UserPermission.cs" />
+    <Compile Include="EF\UserPost.cs" />
+    <Compile Include="EF\VisitorStatistic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
