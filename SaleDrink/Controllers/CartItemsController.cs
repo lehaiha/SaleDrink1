@@ -14,8 +14,7 @@ namespace Fix24h_AdobeBricks_V1.Controllers
         // GET: CartItems
         public ActionResult Index()
         {
-
-
+            string th = "";
             return View();
         }
         private Drinkdbcontext db = new Drinkdbcontext();
